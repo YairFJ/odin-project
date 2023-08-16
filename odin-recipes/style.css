@@ -1,0 +1,29 @@
+body{
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    text-align: center;
+}
+    
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.subtitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.list{
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
