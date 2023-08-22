@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.main{
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    height:100%;
+    width:100%;
+
+}
+
+.title{
+    display: flex;
+    flex-basis: 100%;
+    background-color: rgb(126, 30, 170);
+    color: aliceblue;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.side-bar{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 13%;
+    color: aliceblue;
+    background-color: rgb(69, 28, 216);
+}
+
+.list ol li{
+    display: flex;
+    padding: 8px;
+}
+
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 65%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    flex-shrink: 2;
+    margin-left: 45px;
+    gap: 100px;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    flex-wrap: wrap;
+   
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+    
+}
+
+.item{
+    display: flex;
+    padding: 10px;
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    width: 800px;
+    height: 240px;
+    margin: auto;
+    border-radius: 8px;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.content{
+    width: 600px;
+}
+
+.buttons button{
+    border-radius: 6px ;
+    padding: 6px 12px 6px 12px;
+}
+
+.buttons .btn1{
+    background-color: rgb(54, 107, 206);
+    color: aliceblue;
+    border: 0;
+}
+
+.buttons .btn2{
+    color: rgb(54, 107, 206);
+    border: 1px solid rgba(53, 23, 23, 0.11);
+}

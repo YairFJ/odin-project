@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 10px ;
+    background-color: rgb(235, 83, 83);
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    padding-left: 10px;
+    gap:40px
+}
+
+.img-logo{
+    width: 25px;
+}
+
+.items{
+    display: flex;
+    gap: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-header{
+    display: flex;
+
+    background-color:rgb(235, 83, 83) ;
+    padding: 40px;
+    gap: 100px;
+}
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    color: aliceblue;
+}
+
+.slogan{
+    font-size: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+
+button{
+    height: 22px;
+    background-color: brown;
+    padding: 5px 5px;
+    color: aliceblue;
+    border-radius: 4px;
+    border: none;
+}
+
+.main-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+}
+
+.header-other-content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 100%;
+    align-self: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+
+.other-content{
+    display: flex;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-gallery{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.item{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(216, 211, 211);
+    border-radius: 5px;
+}
+
+.courses{
+    width: 195px;
+}
+
+.team{
+    width: 200px;
+}
+
+.service{
+    width: 200px;
+}
+
+.attention{
+    width: 200px;
+}
+
+figcaption{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.img-txt{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.slogan-section{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    padding: 10px 150px;
+    font-size: 30px;
+    background-color: rgb(225, 233, 233);
+}
+
+.author{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+}
+
+.cite{
+    display: flex;
+    
+}
+
+.final-section{
+    display:flex ;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+.rectangle{
+    width: 800px;
+    height: 150px;
+    border-radius: 6px;
+    background-color: rgba(245, 87, 87, 0.938);
+    padding: 20px 40px ;
+}
+
+.contribute-txt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.contribute-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-c{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+}

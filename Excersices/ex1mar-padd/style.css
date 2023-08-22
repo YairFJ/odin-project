@@ -1,0 +1,23 @@
+.one, .three{
+    padding: 35px;
+}
+
+.one{
+    margin: 12px;
+    background-color: pink;
+    border: 3px solid blue;
+}
+
+.two{
+    margin-bottom: 48px;
+    background-color: aquamarine;
+    border: 3px solid rgb(170, 69, 170)
+}
+
+.three{
+    display: inline-block;
+    margin-left: 400px;
+    padding-right: 150px;
+    background-color: rgb(228, 218, 127);
+    border: 3px solid rgba(216, 109, 67, 0.877);
+}
